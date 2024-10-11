@@ -76,10 +76,10 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Rkbotzsupport')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Rkbotz')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/RkMovie_group')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Rkbotz")
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Rkbotzupport')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Rkotz')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/RkMvie_group')
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/Rkotz")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/Rkbotz")
 
 # Bot settings
