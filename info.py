@@ -99,9 +99,9 @@ STICKERS_IDS = (
 ).split()
 
 # boolean settings 
-GROUP_FSUB = is_enabled('GROUP_FSUB', True) 
+GROUP_FSUB = is_enabled('GROUP_FSUB', False) 
 PM_SEARCH = is_enabled('PM_SEARCH', True) #switch True or False for searching results in bot pm😃
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 WELCOME = is_enabled('WELCOME', False)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
