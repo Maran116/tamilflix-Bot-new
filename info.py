@@ -57,7 +57,7 @@ if len(LOG_CHANNEL) == 0:
     exit()
 else:
     LOG_CHANNEL = int(LOG_CHANNEL)
-IS_FSUB = is_enabled('IS_FSUB', True)
+IS_FSUB = is_enabled('IS_FSUB', False)
 
 # support group
 SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '-1002261140197') #support group id ex:  -1002936246860
