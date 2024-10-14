@@ -68,7 +68,7 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL',"mongodb+srv://maran4486:lV6L5em9H4wDcLaK@cluster0.wtak4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") #mongo db url
+DATABASE_URL = environ.get('DATABASE_URL',"mongodb+srv://tamilflix2:WIN3p2kSH8kPXtwb@cluster0.x2iqh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") #mongo db url
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
@@ -100,7 +100,7 @@ STICKERS_IDS = (
 
 # boolean settings 
 GROUP_FSUB = is_enabled('GROUP_FSUB', False) 
-PM_SEARCH = is_enabled('PM_SEARCH', True) #switch True or False for searching results in bot pm😃
+PM_SEARCH = is_enabled('PM_SEARCH', False) #switch True or False for searching results in bot pm😃
 IS_VERIFY = is_enabled('IS_VERIFY', False)
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 WELCOME = is_enabled('WELCOME', True)
