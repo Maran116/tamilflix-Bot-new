@@ -68,7 +68,7 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL',"mongodb+srv://toloba1212:7KYZvB1cnjh6Hjtj@cluster0.39dz4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") #mongo db url
+DATABASE_URL = environ.get('DATABASE_URL',"mongodb+srv://maran4486:lV6L5em9H4wDcLaK@cluster0.wtak4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") #mongo db url
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
@@ -76,11 +76,11 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Rkbotzupport')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Rkotz')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/RkMvie_group')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Rkotz")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/Rkbotz")
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/TamilFlix_Mv')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/TamilFlix_Mv')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/TamilFlix_Mv')
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/TamilFlix_Mv")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/TamilFlix_Mv")
 
 # Bot settings
 DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds 
