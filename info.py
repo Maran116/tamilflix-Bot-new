@@ -116,14 +116,14 @@ SHORTLINK = is_enabled('SHORTLINK', False)
 PAYMENT_QR = environ.get('PAYMENT_QR', 'http://graph.org/file/cacbbea472e5a48ce0d64.jpg') #telegraph link of your QR code 
 UPI_ID = environ.get('UPI_ID', 'Rishikesh-sharma09@axl') # Add your upi id here
 # for stream
-IS_STREAM = is_enabled('IS_STREAM', False) #true if you want stream feature active in your bot
+IS_STREAM = is_enabled('IS_STREAM', True) #true if you want stream feature active in your bot
 BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002406330623") #if is_stream = true then add a channel id ex: -10026393639
 if len(BIN_CHANNEL) == 0:
     print('Error - BIN_CHANNEL is missing, exiting now')
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "https://github.com/Maran116/tamilflix-Bot-new") #if heroku then paste the app link here ex: https://heroku......./
+URL = environ.get("URL", "https://tamilflix-bot-new.onrender.com") #if heroku then paste the app link here ex: https://heroku......./
 if len(URL) == 0:
     print('Error - URL is missing, exiting now')
     exit()
