@@ -68,7 +68,8 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL',"mongodb+srv://maran4486:GFYghZ04jOxPSdhD@cluster0.wtak4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") #mongo db url
+DATABASE_URL = environ.get('DATABASE_URL',"mongodb+srv://maran116:aD2GReSCFxN8El90@cluster0.wtak4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+") #mongo db url
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
@@ -116,7 +117,7 @@ SHORTLINK = is_enabled('SHORTLINK', False)
 PAYMENT_QR = environ.get('PAYMENT_QR', 'http://graph.org/file/cacbbea472e5a48ce0d64.jpg') #telegraph link of your QR code 
 UPI_ID = environ.get('UPI_ID', 'Rishikesh-sharma09@axl') # Add your upi id here
 # for stream
-IS_STREAM = is_enabled('IS_STREAM', True) #true if you want stream feature active in your bot
+IS_STREAM = is_enabled('IS_STREAM', False) #true if you want stream feature active in your bot
 BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002406330623") #if is_stream = true then add a channel id ex: -10026393639
 if len(BIN_CHANNEL) == 0:
     print('Error - BIN_CHANNEL is missing, exiting now')
